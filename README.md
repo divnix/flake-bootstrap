@@ -159,5 +159,5 @@ $ exit
 [nix]: https://github.com/nixos/nix
 [utils]: https://github.com/numtide/flake-utils
 [nixos]: https://nixos.org/manual/nixos/unstable/options
-[darwin]: https://lnl7.github.io/nix-darwin/manual/index.html#sec-options
+[nix-darwin]: https://lnl7.github.io/nix-darwin/manual/index.html#sec-options
 [home-manager]: https://nix-community.github.io/home-manager/options.html
