@@ -1,5 +1,3 @@
-# Declarative Flake Best Practices
-
 ## Why
 Because using Nix declaratively with the reproducible guarantees of Flakes is _the_ way to use it effectively, 
 in your authors humble opinion.
