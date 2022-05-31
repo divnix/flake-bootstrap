@@ -18,7 +18,7 @@ The [flake.nix](./flake.nix) in this repo contains identical configuration outpu
 [NixOS][nixos],  [Home Manager][home-manager], and  [Nix Darwin][nix-darwin]
 to demonstrate setting up Nix with some minimal sane defaults.
 
-Additional, for the Darwin and NixOS config, we demonstrate how to bring home-manager into scope properly.
+Additionally, for the Darwin and NixOS config, we demonstrate how to bring home-manager into scope properly.
 
 Notes:
 * For easily defining the same package for multiple architectures, checkout [flake-utils][utils].
