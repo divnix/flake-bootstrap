@@ -1,12 +1,19 @@
 ## Why
 Because using Nix declaratively with the reproducible guarantees of Flakes is _the_ way to use it effectively, 
-in your authors humble opinion.
+in your authors humble opinion. But some users don't even know where to begin.
 
 ## Where
 The latest stable Nix binary can be installed from the `2.x-maintenance` branches of [github:nixos/nix][nix], 
 and the best chance of binary cache hits on nixpkgs is to track the either `nixpkgs-*` or `nixos-*` branches.
 
 ## Example for Various Platforms
+The links in this section will take you to the corresponding module option docs for that system, so you can
+extend these examples right away.
+
+Keep in mind that these options are also available locally:
+* NixOS & Nix Darwin: `man configuration.nix`
+* Home Manager: `man home-configuration.nix`
+
 The [flake.nix](./flake.nix) in this repo contains identical configuration outputs for 
 [NixOS][nixos],  [Home Manager][home-manager], and  [Nix Darwin][nix-darwin]
 to demonstrate setting up Nix with some minimal sane defaults.
