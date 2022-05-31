@@ -18,7 +18,7 @@ Additional, for the Darwin and NixOS config, we demonstrate how to bring home-ma
 # flake.nix
 {
   # don't add any `follows` statements on `nix` to avoid a cache miss
-  inputs.nix.url = "github:nixos/nix/2.9-maintenance"
+  inputs.nix.url = "github:nixos/nix/2.9-maintenance";
 
   # both of these branches are well cached; `unstable` less so
   inputs.nixos.url = "github:nixos/nixpkgs/nixos-22.05";
@@ -46,7 +46,7 @@ Additional, for the Darwin and NixOS config, we demonstrate how to bring home-ma
     in {
       # --- NixOS ----------------
       nixosConfigurations.aSystem = lib.nixosSystem {
-        inherit ${system}
+        inherit system;
         
         modules = [
           # import home-manager
